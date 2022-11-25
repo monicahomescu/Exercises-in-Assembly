@@ -23,3 +23,11 @@ a. Given the words A and B, compute the doubleword C as follows:\
 -the bits 4-8 of C are the same as the bits 0-4 of A\
 -the bits 9-15 of C are the same as the bits 6-12 of A\
 -the bits 16-31 of C are the same as the bits of B
+
+b. Given the word A and the byte B, compute the doubleword C:\
+-the bits 0-3 of C have the value 1\
+-the bits 4-7 of C are the same as the bits 0-3 of A\
+-the bits 8-13 of C have the value 0\
+-the bits 14-23 of C are the same as the bits 4-13 of A\
+-the bits 24-29 of C are the same as the bits 2-7 of B\
+-the bits 30-31 have the value 1
