@@ -31,3 +31,10 @@ b. Given the word A and the byte B, compute the doubleword C:\
 -the bits 14-23 of C are the same as the bits 4-13 of A\
 -the bits 24-29 of C are the same as the bits 2-7 of B\
 -the bits 30-31 have the value 1
+
+### Exercise 3
+
+a. Given a character string S, obtain the string D containing all special characters (!@#$%^&*) of the string S.\
+Example:\
+S: '+', '4', '2', 'a', '@', '3', '$', '*'\
+D: '@','$','*'
