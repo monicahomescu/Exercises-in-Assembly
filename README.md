@@ -15,3 +15,11 @@ e. 2/(a+b*c-9)+e-d   (a,b,c-byte; d-doubleword; e-qword)\
 f. (a+b*c+2/c)/(2+a)+e+x   (a,b-byte; c-word; e-doubleword; x-qword)\
 g. 2/(a+b*c-9)+e-d   (a,b,c-byte; d-doubleword; e-qword)\
 h. (a+b*c+2/c)/(2+a)+e+x   (a,b-byte; c-word; e-doubleword; x-qword)
+
+### Exercise 2
+
+a. Given the words A and B, compute the doubleword C as follows:\
+-the bits 0-3 of C are the same as the bits 5-8 of B\
+-the bits 4-8 of C are the same as the bits 0-4 of A\
+-the bits 9-15 of C are the same as the bits 6-12 of A\
+-the bits 16-31 of C are the same as the bits of B
