@@ -38,3 +38,9 @@ a. Given a character string S, obtain the string D containing all special charac
 Example:\
 S: '+', '4', '2', 'a', '@', '3', '$', '*'\
 D: '@','$','*'
+
+b. Two byte strings S1 and S2 are given, having the same length. Obtain the string D so that each element of D represents the maximum of the corresponding elements from S1 and S2.\
+Example:\
+S1: 1, 3, 6, 2, 3, 7\
+S2: 6, 3, 8, 1, 2, 5\
+D: 6, 3, 8, 2, 3, 7
