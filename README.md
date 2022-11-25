@@ -1,6 +1,6 @@
 # Exercises-in-Assembly
 
-### Exercise 1
+## Exercise 1
 
 Additions, substractions
 
@@ -16,7 +16,7 @@ f. (a+b*c+2/c)/(2+a)+e+x   (a,b-byte; c-word; e-doubleword; x-qword)\
 g. 2/(a+b*c-9)+e-d   (a,b,c-byte; d-doubleword; e-qword)\
 h. (a+b*c+2/c)/(2+a)+e+x   (a,b-byte; c-word; e-doubleword; x-qword)
 
-### Exercise 2
+## Exercise 2
 
 a. Given the words A and B, compute the doubleword C as follows:\
 -the bits 0-3 of C are the same as the bits 5-8 of B\
@@ -32,7 +32,7 @@ b. Given the word A and the byte B, compute the doubleword C:\
 -the bits 24-29 of C are the same as the bits 2-7 of B\
 -the bits 30-31 have the value 1
 
-### Exercise 3
+## Exercise 3
 
 a. Given a character string S, obtain the string D containing all special characters (!@#$%^&*) of the string S.\
 Example:\
@@ -45,7 +45,7 @@ S1: 1, 3, 6, 2, 3, 7\
 S2: 6, 3, 8, 1, 2, 5\
 D: 6, 3, 8, 2, 3, 7
 
-### Exercise 4
+## Exercise 4
 
 a. An array of words is given. Write an asm program in order to obtain an array of doublewords, where each doubleword will contain each nibble unpacked on a byte (each nibble will be preceded by a 0 digit), arranged in an ascending order within the doubleword.\
 Example:\
@@ -56,3 +56,7 @@ b. A string of doublewords is given. Order in decreasing order the string of the
 Example:\
 being given sir DD 12345678h 1256ABCDh, 12AB4344h\
 the result will be 1234ABCDh, 12565678h, 12AB4344h.
+
+## Exercise 5
+
+a. Read two numbers a and b (in base 10) from the keyboard and calculate their product. This value will be stored in a variable called "result" (defined in the data segment).
