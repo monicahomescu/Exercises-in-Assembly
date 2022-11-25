@@ -44,3 +44,10 @@ Example:\
 S1: 1, 3, 6, 2, 3, 7\
 S2: 6, 3, 8, 1, 2, 5\
 D: 6, 3, 8, 2, 3, 7
+
+### Exercise 4
+
+a. An array of words is given. Write an asm program in order to obtain an array of doublewords, where each doubleword will contain each nibble unpacked on a byte (each nibble will be preceded by a 0 digit), arranged in an ascending order within the doubleword.\
+Example:\
+for the initial array: 1432h, 8675h, 0ADBCh, ...\
+the following should be obtained: 01020304h, 05060708h, 0A0B0C0Dh, ...
