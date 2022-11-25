@@ -51,3 +51,8 @@ a. An array of words is given. Write an asm program in order to obtain an array 
 Example:\
 for the initial array: 1432h, 8675h, 0ADBCh, ...\
 the following should be obtained: 01020304h, 05060708h, 0A0B0C0Dh, ...
+
+b. A string of doublewords is given. Order in decreasing order the string of the low words (least significant) from these doublewords. The high words (most significant) remain unchanged.\
+Example:\
+being given sir DD 12345678h 1256ABCDh, 12AB4344h\
+the result will be 1234ABCDh, 12565678h, 12AB4344h.
